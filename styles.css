@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #c2ded1;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+#app {
+  border-radius: 1.5rem;
+  margin: 50px;
+  padding: 30px;
+  width: 450px;
+  min-height: 400px;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+#todo-input {
+  height: 25px;
+  width: 270px;
+  padding: 8px;
+  margin: 8px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #696969;
+}
+
+#todo-submit {
+  padding: 8px;
+  margin: 8px;
+  background-color: white;
+  border-style: solid;
+  border-color: #696969;
+  border-radius: 8px;
+}
+
+#todo-output {
+  text-align: left;
+  list-style-position: inside;
+}
